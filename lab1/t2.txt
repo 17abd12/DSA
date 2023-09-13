@@ -1,0 +1,6 @@
+1)	Why does the memory address stored in pointer “pa” vary by 4?
+Ans: Because memory allocated to a int is 4 byte in cpp So four bytes are used to store int and compiler is smart enough to point to next address which can potentially store an int
+2)	Will the address still vary by 4 if the data type of the above mentioned code changed from “int” to “long”? Explain your answer.
+Ans: No, In case of long thee address will vary by 8 if data type is changed to "long"
+3)	If we try to multiply the address pointed to by “pa” what will happen? Is this logically or programmatically correct? Attach screen shot of the output you get when you try this multiplication.
+Ans: No it is not programmatically correct and their will be an error of invalid operands of types int* and int
